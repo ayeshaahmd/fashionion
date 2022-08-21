@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar */
+.nav{
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+
+}
+.logo img {
+    width: 150px;
+    padding: 0 25;
+    margin-left: 10px;
+}
+.nav-link{
+    font-weight: 800;
+    font-size: medium;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: bolder;
+    transform: scale(1.1);
+    text-decoration: overline;
+    margin-left: 3px;
+}
+
+ .slider {
+    margin: auto;
+    width: 90vw;
+     height: auto; 
+    margin: 12px auto;
+}
+.item1 {
+    height: 60vh;
+    width: 90vw;
+}
+
+/* cards */
+.card1 {
+    max-width: 95vw;
+    margin: auto;
+    margin: 5 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+}
+.card-item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px; 
+    padding: 5% 0;
+}
+.card h2{
+    display: block;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem; 
+    text-align: center;
+}
+.item4 {
+    height: 150px;
+    width: 200px;
+}
+.item4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* About Section */
+
+#about{
+    height: 100vh;
+}
+
+ .img {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    width: 100%;
+} 
+
+.header{
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact Section */
+
+#contact {
+        background-color: white;
+        padding: 5% 10% 5% 10%;
+        text-align: center;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #contact h1{
+        margin-top: 10px;
+    }
+    
+    .p-text {
+        border: solid 2px black;
+        border-radius: 6px;
+        color: black;
+        font-family: "Montserrat";
+        outline: none;
+        padding: 12px;
+        margin: 1.0rem;
+        width: 70%;
+    }
+    
+    .text_area {
+        padding-bottom: 5.5rem;
+    }
+
+footer {
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    padding: 0.1% 5% 0.1% 5%;
+}
+.footer-text{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
